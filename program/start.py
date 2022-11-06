@@ -68,18 +68,14 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("🔮طــريــقــة الاســتخــدام🔮", callback_data="cbhowtouse")],
-                [InlineKeyboardButton("🌀الاوامــر الكامله المعربــه🌀", callback_data="cbvamp")],                 
+                [InlineKeyboardButton("🔮طــريــقــة الاســتخــدام🔮", callback_data="cbhowtouse")],                 
                 [
-                    InlineKeyboardButton("🎮الاوامــــر🎮", callback_data="cbcmds"),
                     InlineKeyboardButton("👨🏼‍💻الــمــطــور👨🏼‍💻", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
                         "🎙جــروب الــدعـم🎙", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
-                    InlineKeyboardButton(
-                        "𝐒𝐎𝐔𝐑𝐂𝐄🌀", url=f"https://t.me/EITHON1"
                     ),
                 ],
                 [
